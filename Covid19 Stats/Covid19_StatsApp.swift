@@ -14,8 +14,7 @@ struct Covid19_StatsApp: App {
     var body: some Scene {
         WindowGroup {
             TabheaderView()
-            //ContentView()
-                //.environment(\.managedObjectContext, persistenceController.container.viewContext)
+
         }
     }
 }

@@ -28,9 +28,8 @@ class CovidFetchRequest: ObservableObject {
         
         AF.request("https://covid-19-data.p.rapidapi.com/totals", headers: headers).responseJSON { response in
             
-            
             let result = response.data
-            
+          
             if result != nil {
                 
                 let json = JSON(result!)
